@@ -41,11 +41,13 @@ command: - nslookup type=mx starwars.com
 Explain why the Resistance isn't receiving any emails.
 
 Answer
+
 The Resistance is unable to receive emails because the new primary mail server, asltx.1.google.com, and the secondary server, asltx.2.google.com, are not configured as part of the mail exchanger (MX) records. The new mail servers are not listed in the Resistance's DNS email server settings.
 
 Document what a corrected DNS record should be.
 
 Answer
+
 The corrected DNS should be like this.
 
 starwars.com mail exchanger = 1 asltx.l.google.com
@@ -70,6 +72,7 @@ Your Mission:
 Determine and document the SPF for theforce.net using nslookup.
 
 Answer
+
 nslookup -type=TXT theforce.net
 
 Explain why the Force's emails are going to spam.
@@ -89,16 +92,19 @@ Your mission:
 Document how a CNAME should look by viewing the CNAME of www.theforce.net using NSLOOKUP.
 
 Answer
+
 nslookup -type=CNAME www.theforce.net
 
 Explain why the sub page of resistance.theforce.net isn't redirecting to
 
 Answer
+
 The Alliance server is displaying an incorrect entry for theforce.net, including an inaccurate canonical name.
 
 Document what a corrected DNS record should be.
 
 Answer
+
 Resistance.theforce.net canonical name = theforce.net.
 
 ![image](https://github.com/user-attachments/assets/e05f8884-d6a4-439a-8337-f219342b82e7)
