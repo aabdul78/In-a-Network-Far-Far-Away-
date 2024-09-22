@@ -147,5 +147,13 @@ The shortest bath between the Batuu and Jedha is as following Batuu > D > C > E 
 ![image](https://github.com/user-attachments/assets/37b86897-fb93-4056-8647-c54e46a9a4c7)
 
 
+Mission 6
+
+Issue: Due to all these attacks, the Resistance is determined to seek revenge for the damage the Empire has caused. You are tasked with gathering secret information from the Dark Side network servers that can be used to launch network attacks against the Empire. You have captured some of the Dark Side's encrypted wireless internet traffic in the following pcap: Darkside.pcap.
+
+Your Mission:
+
+Figure out the Dark Side's secret wireless key by using Aircrack-ng. Hint: This is a more challenging encrypted wireless traffic using WPA. In order to decrypt, you will need to use a wordlist (-w) such as rockyou.txt. Use the Dark Side's key to decrypt the wireless traffic in Wireshark. Hint: The format for they key to decrypt wireless is <Wireless_key>:.
+
 
 
