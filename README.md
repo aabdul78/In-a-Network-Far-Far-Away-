@@ -141,6 +141,7 @@ Your Mission:
 View the Galaxy Network Map and determine the OSPF shortest path from Batuu to Jedha. Confirm your path doesn't include Planet N in its route. Document this shortest path so it can be used by the Resistance to develop a static route to improve the traffic.
 
 Answer
+
 The shortest bath between the Batuu and Jedha is as following Batuu > D > C > E > F > J > I > L > Q > T > V > Jedha.
 
 
