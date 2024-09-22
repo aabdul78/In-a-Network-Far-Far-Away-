@@ -144,6 +144,8 @@ Answer
 
 The shortest bath between the Batuu and Jedha is as following Batuu > D > C > E > F > J > I > L > Q > T > V > Jedha.
 
+![image](https://github.com/user-attachments/assets/37b86897-fb93-4056-8647-c54e46a9a4c7)
+
 
 
 
