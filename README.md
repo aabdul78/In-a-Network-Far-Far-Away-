@@ -156,4 +156,34 @@ Your Mission:
 Figure out the Dark Side's secret wireless key by using Aircrack-ng. Hint: This is a more challenging encrypted wireless traffic using WPA. In order to decrypt, you will need to use a wordlist (-w) such as rockyou.txt. Use the Dark Side's key to decrypt the wireless traffic in Wireshark. Hint: The format for they key to decrypt wireless is <Wireless_key>:.
 
 
+Answer
+
+aircrack-ng -w /usr/share/wordlists/rockyou.txt Darkside.pcap
+
+aircrack-ng -w /usr/share/wordlists/rockyou.txt Darkside.pcap
+
+![image](https://github.com/user-attachments/assets/6c2afd0c-8825-4c03-964e-553650f82b39)
+
+Once you have decrypted the traffic, figure out the following Dark Side information: Host IP Addresses and MAC Addresses by looking at the decrypted ARP traffic.
+
+![image](https://github.com/user-attachments/assets/dff2f7c9-0322-4169-a7ae-e634cce81251)
+
+Document these IP and MAC addresses, as the Resistance will use them to launch a retaliatory attack.
+
+Answer
+
+MAC: address: Cisco-Li_e3:e4:01 (00:0f:66:e3:e4:01) IP address: 172.16.0.1 MAC address : IntelCor_55:98:ef (00:13:ce:55:98:ef) IP address : 172.16.0.101
+
+Mission 7
+
+As a thank you for saving the galaxy, the Resistance wants to send you a secret message!
+
+Your Mission:
+
+View the DNS record from Mission #4. The Resistance provided you with a hidden message in the TXT record, with several steps to follow. Follow the steps from the TXT record. Note: A backup option is provided in the TXT record (as a website) in case the main telnet site is unavailable Take a screen shot of the results.
+
+![image](https://github.com/user-attachments/assets/0f1e4e41-c644-4e90-95b7-db41f7b06896)
+
+
+
 
